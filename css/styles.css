@@ -13,10 +13,9 @@
     --logo-color-p1 : #2196F3;
     --maplink-text-color :#FFFFFF;
     --footer-contact-text-color : rgba(255, 255, 255, 0.6);
+    --background-body-color : #ffffff;
     --background-header-color : #FFFFFF ;
     --background-hero-color : #2F303A;
-    --background-quality-color : #E5E5E5;
-    --background-work-color : #E5E5E5;
     --background-team-color : #F5F4FA;
     --background-footer-color :#2F303A;
     --background-example-color : #E5E5E5;
@@ -24,7 +23,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primery-text-color);
-
+   
 }
 .list {
     list-style: none;
@@ -105,7 +104,7 @@ body {
 }
 
 .hero-title {
-    
+        text-transform: uppercase;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;           
@@ -116,7 +115,7 @@ body {
 }
 .btn {
     background-color: #2196F3;
-
+        font-family: inherit; 
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -134,9 +133,8 @@ body {
 }
 
 /* quality */
-.quality, .work {
-background-color: var(--background-quality-color);
-}
+
+ 
 .quality-title {
         font-size: 14px;
     line-height: 1.14;
@@ -151,6 +149,7 @@ background-color: var(--background-quality-color);
 }
 
 /* work */
+
 .work-subtitle {
         font-size: 36px;
         line-height: 1.17;
@@ -163,9 +162,9 @@ background-color: var(--background-quality-color);
 .team {
     background-color: var(--background-team-color);
 }
-.team {
+.team-subtitle {
         font-size: 36px;
-        line-height: 1.17x;
+        line-height: 1.17;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--title-text-color);
@@ -188,10 +187,10 @@ background-color: var(--background-quality-color);
 /* footer */
 .footer {
     background-color: var(--background-footer-color);
+    font-style: normal;
 }
 .footer-logo {
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -202,7 +201,6 @@ background-color: var(--background-quality-color);
     color: var(--maplink-text-color);
 }
 .footer-map {
-        font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -210,7 +208,6 @@ background-color: var(--background-quality-color);
 }
 
 .fcontact-link {
-    font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -222,9 +219,7 @@ background-color: var(--background-quality-color);
     color: var(--hover-color);
 
 }
-.example {
-    background-color: var(--background-example-color);
-}
+
 .example-btn {
     cursor: pointer;
 }
@@ -238,6 +233,7 @@ background-color: var(--background-quality-color);
 }
 .example-btn {
        background-color: var(--background-team-color);
+       font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
