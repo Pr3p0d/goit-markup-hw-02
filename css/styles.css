@@ -187,18 +187,22 @@ body {
 /* footer */
 .footer {
     background-color: var(--background-footer-color);
-    font-style: normal;
+    
 }
 .footer-logo {
-    font-family: 'Raleway';
+        font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--logo-color-p1);
 }
+
 .logo-black {
     color: var(--maplink-text-color);
+}
+.footer-addres {
+    font-style: normal;
 }
 .footer-map {
         font-size: 14px;
@@ -233,7 +237,7 @@ body {
 }
 .example-btn {
        background-color: var(--background-team-color);
-       font-family: inherit;
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -242,7 +246,7 @@ body {
         color: var(--title-text-color);
 }
 .inst-title {
-    font-weight: 700;
+        font-weight: 700;
         font-size: 18px;
         line-height: 2.0;           
         letter-spacing: 0.06em;
